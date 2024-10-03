@@ -23,76 +23,98 @@ function Resume() {
         <Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
+
             <Resumecontent
-              title="UX/UI Developer"
-              date="Ira A. Fulton Schools of Engineering, Arizona State University - Tempe, USA - Nov 2022 - Present"
+              title="Product Analyst"
+              date="FIS Global · Jan 2024 - Present"
               content={[
-                "Engineered responsive web applications using React and JavaScript, driving a 40% boost in user engagement and a 30% reduction in bounce rates.",
-                "Executed comprehensive user research, translating insights into high-fidelity wireframes and interactive prototypes using Figma, resulting in a 25% increase in user satisfaction scores.",
-                "Fostered collaboration with cross-functional teams to integrate user-centered design principles into the development process, leading to a 50% decrease in post-release UI-related issues.",
-                "Orchestrated front-end performance optimizations, achieving a 60% improvement in load times and a perfect Lighthouse score for performance and accessibility.",
+                "Led a cross-functional Agile team of 10 professionals to deliver key product features.",
+                "Analyzed datasets using Python and automated reporting processes.",
+                "Developed Tableau and Power BI dashboards, reducing report generation time by 30%.",
+                "Leveraged Google Analytics to increase conversion rates by 25%.",
+                "Prioritized product features based on market research, boosting merchant adoption by 15%.",
+                "Implemented A/B testing, resulting in a 10% increase in conversion rates.",
               ]}
             />
+
             <Resumecontent
-              title="Full-Stack Engineer"
-              date="Reguvare - Phoenix, USA - Jan 2024 - Jun 2024"
+              title="Product Manager"
+              date="W4M.AI · Jun 2024 - Sep 2024"
               content={[
-                "Designed and implemented a real-time biofeedback dashboard using React, Redux, and WebSockets, integrating Claude AI API to boost biofeedback accuracy by 25%.",
-                "Drove application performance enhancements, resulting in a 40% reduction in load time and 20% improvement in overall user engagement.",
-                "Crafted advanced UI animations and interactions using Framer Motion, elevating the user experience and increasing user retention by 15%.",
-                "Championed the adoption of TypeScript across the frontend codebase, reducing bugs by 30% and enhancing code maintainability.",
+                "Led the development and management of InternPro, an AI-powered internship matching platform.",
+                "Collaborated with users and developers to implement user-suggested features, reducing bugs and improving satisfaction.",
+                "Automated interview scheduling and performance tracking to enhance operational efficiency.",
+                "Utilized project management tools like Slack and Notion for better team collaboration.",
               ]}
             />
+
             <Resumecontent
-              title="Software Engineer"
-              date="Contak (AI Music Startup) - Phoenix, USA - Aug 2022 - Jan 2024"
+              title="Project Manager Intern"
+              date="Qbotica · Jan 2024 - May 2024"
               content={[
-                "Led the development of an AI-powered music platform using React, Redux, and TypeScript, catalyzing a 50% increase in daily active users.",
-                "Architected and implemented an intuitive, responsive UI that streamlined user search time by 35% and bolstered overall platform engagement by 40%.",
-                "Integrated GraphQL for efficient data fetching, slashing API calls by 60% and enhancing application performance.",
-                "Implemented server-side rendering (SSR) with Next.js, amplifying SEO performance and cutting initial load time by 45%.",
+                "Coordinated daily project tasks and generated regular status reports for stakeholders.",
+                "Facilitated risk management and supported cross-functional teams in software development.",
+                "Led project meetings and implemented strategies to ensure project success.",
               ]}
             />
+
             <Resumecontent
-              title="Full-Stack Developer"
-              date="E21 Designs - Chennai, India - Jun 2019 - May 2022"
+              title="Product Manager"
+              date="Jewish Healthcare Foundation · Aug 2023 - Dec 2023"
               content={[
-                "Engineered and deployed 15+ high-traffic web applications using React, Redux, AngularJS, and Next.js, serving over 1 million users monthly.",
-                "Constructed robust backend systems using Node.js and Express, enhancing API response times by 55%.",
-                "Implemented comprehensive test suites using Jest and React Testing Library, achieving 95% code coverage and minimizing post-release bugs by 70%.",
-                "Optimized database queries and implemented caching strategies, resulting in a 65% reduction in server load during peak hours.",
+                "Led the product design and development of NurseWav, a mobile app to address alarm fatigue among hospital nurses.",
+                "Conducted customer interviews and applied UX principles to enhance the app’s usability.",
+                "Leveraged business intelligence tools for data-driven decision-making.",
+                "Collaborated with stakeholders using Airtable and Miro for efficient project management.",
               ]}
             />
-        
+
+            <Resumecontent
+              title="Technology Solutions Manager"
+              date="Hewlett Packard Enterprise · Nov 2021 - Jul 2022"
+              content={[
+                "Recognized as a Top Performer in the first quarter for excellence in customer resolutions.",
+                "Collaborated with engineering and product management to improve quality and resolve issues.",
+                "Generated comprehensive reports on product quality, feedback trends, and escalation analysis.",
+              ]}
+            />
           </Col>
+
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="Arizona State University"
+              date="Aug 2023 - Jul 2024"
+              content={[
+                "Teaching Assistant: Data-Driven Decision Making",
+                "Vice President, Women in Technology Entrepreneurship and Management (WiTEM) Club",
+              ]}
+            />
+            <Resumecontent
+              title="Arizona State University"
               date="2024"
-              content={["M.S. in Computer Science, GPA: 4.00"]}
+              content={["M.S. in Engineering Management, GPA: 4.00"]}
             />
             <Resumecontent
-              title="IIBM Institute of Business Management"
-              date="2020"
-              content={["MBA, GPA: 4.00"]}
-            />
-            <Resumecontent
-              title="SASTRA University"
+              title="Amrita Vishwa Vidyapeetham University"
               date="2019"
-              content={["B.S. in Computer Science"]}
+              content={[
+                "B.Tech in Electronics and Instrumentation Engineering",
+              ]}
             />
+
             <h3 className="resume-title">Core Competencies</h3>
             <Resumecontent
               content={[
-                "Frontend: React, Redux, Angular, Vue.js, TypeScript, HTML5, CSS3, SASS, Webpack",
-                "Backend: Node.js, Express, MongoDB, GraphQL, RESTful APIs, Microservices",
-                "UX/UI & DevOps: Figma, Adobe XD, Wireframing, AWS, Docker, Kubernetes, CI/CD",
-                "Testing & Tools: Jest, React Testing Library, Cypress, Git, Agile/Scrum, JIRA, TDD",
+                "Product Development & Strategy: Roadmapping, A/B Testing, User Research, Wireframing",
+                "Technologies: Python, SQL, Tableau, Power BI, Google Analytics, MySQL, API Integration",
+                "Agile Tools & Project Management: JIRA, Slack, Notion, Airtable, Miro",
+                "Leadership & Collaboration: Cross-functional Team Leadership, Project Management, Strategic Communications",
               ]}
             />
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>Contact</h1>
@@ -105,27 +127,27 @@ function Resume() {
                   href="https://github.com/aravindhsharma"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:aravindhsharma2@gmail.com"
+                  href="mailto:gsankar6@asu.edu"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <SiGmail />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/aravindheaswaran"
+                  href="https://www.linkedin.com/in/ganapathysankarasubramaniyan"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>

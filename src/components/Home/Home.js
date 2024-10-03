@@ -15,7 +15,10 @@ function Home() {
             <Col md={7} className="home-header">
               <h1 className="heading-name">
                 I'm
-                <strong className="main-name"> Aravindh Easwaran.</strong>
+                <strong className="main-name">
+                  {" "}
+                  Ganapathy Sankarasubramaniyan.
+                </strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>

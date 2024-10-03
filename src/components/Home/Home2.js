@@ -15,16 +15,18 @@ function Home2() {
               <span className="purple"> About </span> me
             </h1>
             <p className="home-body">
-              A passionate{" "}
-              <strong className="purple">Software Developer</strong> having
-              demonstrated history experience in working with various projects
-              emphasizing on{" "}
+              I am an experienced{" "}
+              <strong className="purple">Product Manager</strong> with a proven
+              track record of leveraging Agile methodologies and data-driven
+              insights to deliver impactful products. I have expertise in
+              managing cross-functional teams, driving product development, and
+              executing strategic roadmaps. My skills include
               <strong className="purple">
-                MERN Stack - React.js, Espress, Node.js and Mongodb.
-              </strong>{" "}
-              I'm actively looking for opportunity to work as a Front End Web
-              Developer - React to enhance my skills, and zeal to learn new
-              technologies, where I can exhibit my skills and knowledge.
+                {" "}
+                Python, SQL, JIRA, Tableau, Power BI
+              </strong>
+              , and I am passionate about continuous product improvement and
+              enhancing user satisfaction through iterative development.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -50,7 +52,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:aravindhsharma2@gmail.com"
+                  href="mailto:gsankar6@asu.edu"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
@@ -60,7 +62,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/aravindhsharma"
+                  href="https://www.linkedin.com/in/ganapathysankarasubramaniyan"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"

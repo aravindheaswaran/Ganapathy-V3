@@ -37,7 +37,7 @@ function NavBar() {
         <Navbar.Brand href="/">
           <h3 className="purple" alt="brand">
             <strong>
-              <em>AE.</em>
+              <em>Gana.</em>
             </strong>
           </h3>
         </Navbar.Brand>
@@ -76,7 +76,7 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                Projects & Publications
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>

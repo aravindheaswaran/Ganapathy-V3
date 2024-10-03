@@ -23,29 +23,28 @@ function Skills() {
               My <strong className="purple">Skillsets</strong>
             </h1>
             <Container className="about-body">
-              {" "}
               <p>
-                ✔ JavaScript, Reactjs , Bootstrap, jQuery, EJS,
-                Styled-Components.{" "}
+                ✔ Product Development & Strategy: Roadmapping, Feature
+                Prioritization, A/B Testing, User Research, Wireframing.
+              </p>
+              <p>✔ Python, SQL, MySQL, API Integration, and RESTful APIs.</p>
+              <p>✔ Data Analytics: Tableau, Power BI, Google Analytics.</p>
+              <p>
+                ✔ Agile Methodologies: Scrum, Kanban, Sprint Planning, JIRA.
+              </p>
+              <p>✔ CRM Tools: Salesforce, UiPath.</p>
+              <p>
+                ✔ Leadership: Cross-functional Team Leadership, Stakeholder
+                Engagement, Project Management.
               </p>
               <p>
-                ✔ Nodejs, Expressjs, MongoDB, Mongoose, Python, MySQL, RESTful
-                API.
+                ✔ Collaboration Tools: Figma, Airtable, Miro, Notion, Slack,
+                Zapier.
               </p>
               <p>
-                ✔ Authentication, Cookies and Sessions, Passport.js, OAuth 2.0.
+                ✔ Experienced in Product Lifecycle Management (PLM) and
+                Data-Driven Decision Making.
               </p>
-              <p>
-                ✔ Mobile-First, Responsive Design, Progressive Web Applications
-                (PWA).
-              </p>
-              <p>
-                ✔ Built standalone Front-end responsive applications using
-                Reactjs.
-              </p>
-              <p>✔ Designed and built web applications using MERN Stack.</p>
-              <p>✔ Agile Development & Scrum.</p>
-              <p>✔ Heroku and Git.</p>
             </Container>
           </Col>
           <Col
@@ -57,7 +56,7 @@ function Skills() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillsets </strong>
+          Professional <strong className="purple">Skillsets</strong>
         </h1>
 
         <Techstack />

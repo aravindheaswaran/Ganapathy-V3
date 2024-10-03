@@ -10,7 +10,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Developed by Aravindh Sharma</h3>
+          <h3>Developed by Ganapathy Sankarasubramaniyan</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year}</h3>
@@ -29,7 +29,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="mailto:aravindhsharma2@gmail.com"
+                href="mailto:gsankar6@asu.edu"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: "white" }}
@@ -39,7 +39,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/aravindhsharma"
+                href="https://www.linkedin.com/in/ganapathysankarasubramaniyan"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: "white" }}
