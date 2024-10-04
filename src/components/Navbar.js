@@ -37,7 +37,7 @@ function NavBar() {
         <Navbar.Brand href="/">
           <h3 className="purple" alt="brand">
             <strong>
-              <em>Gana.</em>
+              <em>Ganapathy.</em>
             </strong>
           </h3>
         </Navbar.Brand>
