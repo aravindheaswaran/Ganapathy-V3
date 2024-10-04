@@ -64,7 +64,7 @@ function NavBar() {
                 to="/skills"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Skills
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Expertise
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -76,7 +76,7 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects & Publications
+                Projects & Achievements
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>

@@ -9,6 +9,12 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
+// Import images for sections
+import teachingAssistantImg from "../../Assets/teaching-assistant.png";
+import msDegreeImg from "../../Assets/ms-degree.png";
+import coreCompetenciesImg from "../../Assets/core-competencies.png";
+import achievementsImg from "../../Assets/achievements.png";
+
 function Resume() {
   return (
     <Container fluid className="resume-section">
@@ -78,30 +84,6 @@ function Resume() {
                 "Generated comprehensive reports on product quality, feedback trends, and escalation analysis.",
               ]}
             />
-          </Col>
-
-          <Col md={6} className="resume-right">
-            <h3 className="resume-title">Education</h3>
-            <Resumecontent
-              title="Arizona State University"
-              date="Aug 2023 - Jul 2024"
-              content={[
-                "Teaching Assistant: Data-Driven Decision Making",
-                "Vice President, Women in Technology Entrepreneurship and Management (WiTEM) Club",
-              ]}
-            />
-            <Resumecontent
-              title="Arizona State University"
-              date="2024"
-              content={["M.S. in Engineering Management, GPA: 4.00"]}
-            />
-            <Resumecontent
-              title="Amrita Vishwa Vidyapeetham University"
-              date="2019"
-              content={[
-                "B.Tech in Electronics and Instrumentation Engineering",
-              ]}
-            />
 
             <h3 className="resume-title">Core Competencies</h3>
             <Resumecontent
@@ -111,6 +93,42 @@ function Resume() {
                 "Agile Tools & Project Management: JIRA, Slack, Notion, Airtable, Miro",
                 "Leadership & Collaboration: Cross-functional Team Leadership, Project Management, Strategic Communications",
               ]}
+              imgPath={coreCompetenciesImg} // Image for Core Competencies
+            />
+          </Col>
+
+          <Col md={6} className="resume-right">
+            <h3 className="resume-title">Education</h3>
+            <Resumecontent
+              title="Arizona State University"
+              date="Aug 2023 - Jul 2024"
+              content={["Teaching Assistant: Data-Driven Decision Making"]}
+              imgPath={teachingAssistantImg} // Image for Teaching Assistant
+            />
+            <Resumecontent
+              title="Arizona State University"
+              date="2024"
+              content={["M.S. in Engineering Management, GPA: 4.00"]}
+              imgPath={msDegreeImg} // Image for M.S. Degree
+            />
+            <Resumecontent
+              title="Amrita Vishwa Vidyapeetham University"
+              date="2019"
+              content={[
+                "B.Tech in Electronics and Instrumentation Engineering",
+                "Secretary of the Sports Club",
+                "Live in Labs, a social innovation lab",
+              ]}
+            />
+
+            <h3 className="resume-title">Achievements</h3>
+            <Resumecontent
+              content={[
+                "Rashtrapathi National Award (2016): Awarded the prestigious Rashtrapathi National Award as a Bharat Scout and Guide for excellence in service and leadership.",
+                "Best Performer at Hewlett Packard Enterprise: Recognized for excelling in key performance indicators and customer satisfaction metrics as a Technology Solutions Manager.",
+                "Winner of Prescott Startup Fund: Secured the prize in the Social Innovation Startup Lab pitch challenge for the NurseWav app.",
+              ]}
+              imgPath={achievementsImg} // Image for Achievements
             />
           </Col>
         </Row>

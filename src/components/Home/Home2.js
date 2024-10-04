@@ -9,10 +9,11 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
+        {/* About Me Section */}
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              <span className="purple"> About </span> me
+              Know <span className="purple"> Who I Am</span>
             </h1>
             <p className="home-body">
               I am an experienced{" "}
@@ -27,12 +28,53 @@ function Home2() {
               </strong>
               , and I am passionate about continuous product improvement and
               enhancing user satisfaction through iterative development.
+              <br />
+              <br />
+              Outside of work, I love dancing, exploring new tech trends, and
+              challenging myself on thrilling adventures. My resilience and
+              determination, shaped by my experience as an athlete, inspire me
+              to excel in all endeavors I pursue.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <img src={myImg} className="img-fluid" alt="avatar" />
           </Col>
         </Row>
+
+        {/* Testimonials Section */}
+        <Row>
+          <Col md={12} className="home-about-description">
+            <h1 style={{ fontSize: "2.6em", paddingTop: "40px" }}>
+              What Others <span className="purple">Say</span> About Me
+            </h1>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col md={6} className="home-about-description">
+            <blockquote className="home-body" style={{ textAlign: "justify" }}>
+              <p>
+                "I was very impressed with how you managed the situation and
+                kept the quality of your output. You managed the delivery,
+                quality, and communication very well."
+              </p>
+              <footer>— Hazel Ducay, Chief Scrum Master, Shell</footer>
+            </blockquote>
+          </Col>
+
+          <Col md={6} className="home-about-description">
+            <blockquote className="home-body" style={{ textAlign: "justify" }}>
+              <p>
+                "Successful completion within the budget and timelines has been
+                possible because of your hard work, dedication, and commitment.
+                Continue doing a commendable job!"
+              </p>
+              <footer>— Somanna T G, CC Lead - Testing, Shell</footer>
+            </blockquote>
+          </Col>
+        </Row>
+
+        {/* Contact Section */}
         <Row>
           <Col md={12} className="home-about-social">
             <h1>Contact</h1>
@@ -77,4 +119,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
